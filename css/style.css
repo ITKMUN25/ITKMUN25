@@ -1,0 +1,336 @@
+/* General Style */
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#4b699d;
+    color: white;
+}
+
+body a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/* Navbar */
+
+/* ! #4b699d */
+
+
+
+nav{
+    padding: 0 !important;
+    margin: 0 !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+nav .container-fluid{
+    background-color: #1c2c42;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav .container-fluid a{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+nav .container-fluid a img{
+    width: 110px;
+}
+
+nav .container-fluid .nav-link:hover{
+    color: #0f171f;
+}
+
+/* Hero Image */
+
+/* Hero Image */
+.hero {
+    position: relative;
+    text-align: center;
+  }
+/* 
+  .hero #hero-image {
+    background: linear-gradient(to bottom, #4b699d, #1c2c42) !important;
+  }
+   */
+
+
+
+  .hero img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    /* background: linear-gradient(to bottom, #4b699d, #1c2c42); */
+    
+  }
+
+  .hero .hero-overplay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+}
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Logo Styling */
+  .hero-logo {
+    max-width: 150px; /* Logonun boyutunu ayarlayabilirsiniz */
+    margin-bottom: 20px; /* Başlık ile logo arasına boşluk */
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    /* background-color: darkviolet; */
+    background-color: blue;
+
+  }
+  
+
+
+/* Home Page */
+
+
+
+
+.letters .letter{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.letters .letter h3{
+    font-weight: 800;
+}
+
+.letters .letter h4{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.letters .letter p{
+    margin-top: 10px;
+}
+
+
+.letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/hero-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+.meet-btn {
+    /* margin-top: 20px; */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: block;
+    align-items: center;
+    /* margin: auto; */
+  }
+
+.meet-btn:hover {
+    /* background-color: darkviolet; */
+    background-color: blue;
+  }
+
+
+
+
+/* ! Apply  */
+
+.apply{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-image: url("../img/hero-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.apply .main{
+  text-align: center;
+}
+
+.apply .main .container #apply-img{
+  width: 10%;
+}
+
+.apply-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70%;
+}
+
+.apply-btn:hover {
+  /* background-color: darkviolet !important; */
+  background-color: blue !important;
+}
+
+/* Our team */
+
+.our-team {
+  background-image: url("../img/hero_image_with_gradient.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.our-team .card {
+  display: flex;
+  flex-direction: column; /* Kart içeriği dikey hizalandı */
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px; /* Daha fazla padding ile içerik alanı genişletildi */
+  border: 2px solid red;
+  max-width: 600px; /* Kart genişliği artırıldı */
+  width: 100%; /* Kartların genişliği esnek hale getirildi */
+}
+
+.our-team .card-image {
+  flex-shrink: 0;
+  width: 100%; /* Kart genişliğine uyum sağlandı */
+  border-radius: 10px; /* Kart kenarlarıyla uyumlu köşeler */
+  overflow: hidden; /* Taşmalar engellendi */
+}
+
+.our-team .card-image img {
+  width: 100%;
+  height: 350px; /* Resim yüksekliği artırıldı */
+  object-fit: cover; /* Resim, kart alanını dolduracak şekilde ayarlandı */
+  border: none; /* Resim kenarındaki border kaldırıldı */
+}
+
+.our-team .card-content {
+  margin-top: 20px; /* Görsel ile içerik arasına mesafe eklendi */
+  text-align: center; /* İçerik merkezlendi */
+}
+
+.our-team .card-content h2 {
+  font-size: 24px; /* Başlık yazı boyutu artırıldı */
+  margin: 0;
+  color: black;
+}
+
+.our-team .card-content p {
+  font-size: 18px; /* Açıklama yazısı boyutu artırıldı */
+  color: gray;
+  margin: 10px 0 0;
+}
+
+
+/* ! Committees */
+
+.commitees {
+  background-image: url("../img/hero_image_with_gradient.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.commitees .container .row {
+  text-align: center;
+}
+
+.commitees .custom-card {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.commitees .custom-card:hover {
+  transform: translateY(-10px);
+}
+
+.commitees .card-image {
+  width: 100%;
+  /* height: 200px; */
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.commitees .custom-button {
+  background-color: #1c2c42; /* Dark blue background */
+  color: white !important;
+  border: 2px solid red; /* Red border */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  border-radius: 0;
+}
+
+.commitees .custom-button:hover {
+  background-color: rgba(0, 0, 139, 1); /* Bright blue on hover */
+}
+
+
