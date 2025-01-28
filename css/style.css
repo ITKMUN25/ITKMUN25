@@ -334,3 +334,57 @@ nav .container-fluid .nav-link:hover{
 }
 
 
+/* ! Study Guides */
+
+.study-guides {
+  background-image: url("../img/hero_image_with_gradient.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.study-guides .container .row {
+  text-align: center;
+}
+
+.study-guides .custom-card {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  
+  transition: transform 0.3s ease;
+}
+
+.study-guides .custom-card:hover {
+  transform: translateY(-10px);
+}
+
+.study-guides .card-image {
+  width: 100%;
+  /* height: 200px; */
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.study-guides .custom-button {
+  background-color: #1c2c42; /* Dark blue background */
+  color: white !important;
+  border: 2px solid red; /* Red border */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  border-radius: 0;
+}
+
+.study-guides .custom-button:hover {
+  background-color: rgba(0, 0, 139, 1); /* Bright blue on hover */
+}
